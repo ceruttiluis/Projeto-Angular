@@ -1,0 +1,153 @@
+div.container{
+    display: flex;
+    background: linear-gradient(180deg, rgba(60, 196, 226, 0.91) 49.08%, #1E1E1E 100%);;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    row-gap: 10px;
+    position: relative;
+    width: 1710px;
+    height: 2108px;
+}
+    div.menu{
+        position: absolute;
+        width: 100px;
+        height: 55.01px;
+        left: 145px;
+        top: 22px;
+    }
+    div.logo{
+        position: absolute;
+        width: 290px;
+        height: 44px;
+        left: 300px;
+        top: 50px;
+    }
+    div.search-box{
+        position: absolute;
+        height: 50px;
+        left: 800px;
+        top: 50px;
+        border-radius: 40px;
+        background: white;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    div.entrar{
+        position: absolute;
+        width: 135px;
+        height: 60px;
+        left: 1028px;
+        top: 23px;
+    }
+    div.carrinho{
+        position: absolute;
+        width: 130px;
+        height: 60px;
+        left: 1300px;
+        top: 30px;
+    }
+    div.favoritos{
+        position: absolute;
+        width: 109px;
+        height: 30px;
+        left: 1308px;
+        top: 42px;
+    }
+    div.produto1{
+        position: absolute;
+        width: 215px;
+        height: 148px;
+        left: 230px;
+        top: 164px;
+    }
+    div.produto2{
+        position: absolute;
+        width: 215px;
+        height: 140px;
+        left: 551px;
+        top: 164px;
+    }
+    div.produto3{
+        position: absolute;
+        width: 215px;
+        height: 141.66px;
+        left: 881px;
+        top: 164px;
+    }
+    div.produto4{
+        position: absolute;
+        width: 215px;
+        height: 150.81px;
+        left: 1197px;
+        top: 164px;
+    }
+    div.produto5{
+        position: absolute;
+        width: 215px;
+        height: 140px;
+        left: 230px;
+        top: 536px;
+    }   
+    div.produto6{
+        position: absolute;
+        width: 215px;
+        height: 141.31px;
+        left: 551px;
+        top: 536px;
+    }
+    div.produto7{
+        position: absolute;
+        width: 215px;
+        height: 140.65px;
+        left: 881px;
+        top: 536px;
+    }
+    div.produto8{
+        position: absolute;
+        width: 215px;
+        height: 137.44px;
+        left: 1197px;
+        top: 536px;
+    }
+
+    div.central{
+        position: absolute;
+        width: 30%;
+        height: 250px;
+        left: 230px;
+        top: 908px;
+        font-size: 25px;
+    }   
+    div.pc1{
+        position: absolute;
+        width: 160px;
+        height: 235.58px;
+        left: 685px;
+        top: 20px;
+    }
+    div.pc2{
+        position: absolute;
+        width: 160px;
+        height: 255px;
+        left: 1020px;
+        top: 20px;
+    }
+    div.notebook{
+        position: absolute;
+        width: 230px;
+        height: 200px;
+        left: 800px;
+        top: 280px;
+    }
+    div.rodapé{
+        position: absolute;
+        width: 1440px;
+        height: 600px;
+        left: 0px;
+        top: 1508px;
+    }
+
