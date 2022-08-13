@@ -8,6 +8,7 @@ div.container{
     position: relative;
     width: 1710px;
     height: 2108px;
+    font-family: sans-serif;
 }
     div.menu{
         position: absolute;
@@ -20,98 +21,153 @@ div.container{
         position: absolute;
         width: 290px;
         height: 44px;
-        left: 300px;
+        left: 250px;
         top: 50px;
     }
     div.search-box{
         position: absolute;
-        height: 50px;
-        left: 800px;
-        top: 50px;
+        height: 30px;
+        left: 580px;
+        top: 40px;
         border-radius: 40px;
         background: white;
         padding: 10px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 400px;
+        width: 470px;
+    }
+    .search-txt{
+        border: none;
+        background: none;
+        outline: none;
+        padding: 0;
+        color: black;
+        line-height: 40px;
+        left: 500px;
+        width: 470px;
+        height: 30px;
     }
     div.entrar{
         position: absolute;
-        width: 135px;
-        height: 60px;
-        left: 1028px;
-        top: 23px;
+        width: 150px;
+        height: 100px;
+        left: 1100px;
+        top: 30px;
+        font-size: 25px;
     }
     div.carrinho{
         position: absolute;
         width: 130px;
         height: 60px;
-        left: 1300px;
+        left: 1280px;
         top: 30px;
+        font-size: 25px;
     }
     div.favoritos{
         position: absolute;
         width: 109px;
         height: 30px;
-        left: 1308px;
-        top: 42px;
+        left: 1450px;
+        top: 30px;
+        font-size: 25px;
+    }
+    div.comprar{
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        left: 55px;
+        top: 280px;
+        background-color: #4fb5ff;
+        border-radius: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+    div.preço{
+        position: absolute;
+        width: 80px;
+        height: 40px;
+        left: 70px;
+        top: 230px;
+        text-align: center;
     }
     div.produto1{
         position: absolute;
         width: 215px;
-        height: 148px;
+        height: 330px;
         left: 230px;
         top: 164px;
+        background-color: #d9d9d9;
+        text-align: center;
+        color: #1a71ae;
     }
     div.produto2{
         position: absolute;
         width: 215px;
-        height: 140px;
+        height: 330px;
         left: 551px;
         top: 164px;
+        background-color: #d9d9d9;
+        text-align: center;
+        color: #1a71ae;
     }
     div.produto3{
         position: absolute;
         width: 215px;
-        height: 141.66px;
+        height: 330px;
         left: 881px;
         top: 164px;
+        background-color: #d9d9d9;
+        text-align: center;
+        color: #1a71ae;
     }
     div.produto4{
         position: absolute;
         width: 215px;
-        height: 150.81px;
+        height: 330px;
         left: 1197px;
         top: 164px;
+        background-color: #d9d9d9;
+        text-align: center;
+        color: #1a71ae;
     }
     div.produto5{
         position: absolute;
         width: 215px;
-        height: 140px;
+        height: 330px;
         left: 230px;
         top: 536px;
+        background-color: #d9d9d9;
+        text-align: center;
+        color: #1a71ae;
     }   
     div.produto6{
         position: absolute;
         width: 215px;
-        height: 141.31px;
+        height: 330px;
         left: 551px;
         top: 536px;
+        background-color: #d9d9d9;
+        text-align: center;
+        color: #1a71ae;
     }
     div.produto7{
         position: absolute;
         width: 215px;
-        height: 140.65px;
+        height: 330px;
         left: 881px;
         top: 536px;
+        background-color: #d9d9d9;
+        text-align: center;
+        color: #1a71ae;
     }
     div.produto8{
         position: absolute;
         width: 215px;
-        height: 137.44px;
+        height: 330px;
         left: 1197px;
         top: 536px;
+        background-color: #d9d9d9;
+        text-align: center;
+        color: #1a71ae;
     }
 
     div.central{
@@ -121,6 +177,8 @@ div.container{
         left: 230px;
         top: 908px;
         font-size: 25px;
+        text-align: justify;
+        font-family: sans-serif;
     }   
     div.pc1{
         position: absolute;
@@ -150,4 +208,62 @@ div.container{
         left: 0px;
         top: 1508px;
     }
+    div.logo-rodape{
+        position: absolute;
+        width: 293px;
+        height: 44px;
+        left: 620px;
+        top: 120px;
+    }
+    div.redes-sociais{
+        position: absolute;
+        width: 400px;
+        height: 40px;
+        left: 1080px;
+        top: 20px;
+        font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+    }
+    div.instagram{
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        left: 1080px;
+        top: 120px;
+    }
+    div.facebook{
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        left: 1230px;
+        top: 120px;
+    }
+    div.atendimento{
+        position: absolute;
+        width: 400px;
+        height: 200px;
+        left: 230px;
+        top: 80px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        font-family: sans-serif;
+    }
+    div.contato{
+        position: absolute;
+        width: 220px;
+        height: 250px;
+        left: 1080px;
+        top: 200px;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    
+
 
