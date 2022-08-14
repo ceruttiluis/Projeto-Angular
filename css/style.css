@@ -173,7 +173,7 @@ div.container{
     div.central{
         position: absolute;
         width: 30%;
-        height: 250px;
+        height: 315px;
         left: 230px;
         top: 908px;
         font-size: 25px;
@@ -263,7 +263,3 @@ div.container{
         color: white;
         font-family: sans-serif;
     }
-
-    
-
-
