@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/Loginstyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
-<body style="background-color: rgb(106, 188, 206); color:rgb(6, 5, 5)">
-    <a href="index.html"><img src="imagem/GAMEMANIA (1).png" alt="Logo GameMania"></a>
-    <h1>Login de Usuário</h1>
 
-    <form>
-        <label for="name">Usuário</label>
-        <input type="text" id="name">
-        <label for="12345678">Senha</label>
-        <input type="password" id="password-example"><br>
-        <input type="submit" id="btn-enviar" name="btn-enviar" required>
-        <p>Não tem uma conta?</p>
-        <a href="#">Cadastre-se aqui</a>
-    </form>
-    
+<body>
+    <div class="container">
+        <div class="logo"><a href="index.html"><img src="imagem/GAMEMANIA (1).png" alt="Logo GameMania"></a></div>
+        <div class="login">
+            <h1>Login de Usuário</h1>
+        </div>
+
+        <form>
+            <div class="usuario">
+                <label for="name">Usuário</label>
+                <input class="txt-box" type="text" id="name">
+            </div>
+            <div class="senha">
+                <label for="text">Senha</label><br>
+                <input class="txt-box" type="password" id="password-example"><br>
+            </div>
+            <input class="botão" type="submit" id="btn-enviar" name="btn-enviar"required>
+            <div class="cadastrar-se">
+                <p>Não tem uma conta?</p>
+                <a href="#">Cadastre-se aqui</a>
+            </div>
+        </form>
+    </div>
+
+
 </body>
+
 </html>
