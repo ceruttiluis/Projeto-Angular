@@ -2,11 +2,13 @@ div.container {
     position: relative;
     display: flex;
     width: 1710px;
-    height: 853px;
+    height: 869px;
     justify-content: center;
     font-family: sans-serif;
     align-items: center;
     background: linear-gradient(180deg, rgba(60, 196, 226, 0.91) 49.08%, #1E1E1E 100%);
+    min-height: 100%;
+    min-width: 100%;
 }
 
 div.logo {
@@ -54,12 +56,12 @@ div.senha {
     top: 5px;
 }
 
-.botão {
+.btn btn-primary {
     position: absolute;
     width: 80px;
     height: 30px;
     left: 800px;
-    top: 420px;
+    top: 400px;
 }
 div.cadastrar-se{
     position: absolute;

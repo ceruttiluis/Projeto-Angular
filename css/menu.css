@@ -1,0 +1,32 @@
+
+a.home {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px, 10px, 12px, 32px;
+    font-size: 40px;
+    overflow: hidden;
+    margin: 20px;
+}
+a.home:hover {
+    color: aqua;
+    background-color: white;
+}
+.btn-abrir{
+    color: black;
+    font-size: 80px;
+    text-decoration: none;
+}
+.btn-abrir:hover {
+    color: black;
+}
+nav.categorias{
+    width: 0px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: aqua;
+    transition: 0.3s;
+}
