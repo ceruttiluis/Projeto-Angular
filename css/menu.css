@@ -30,3 +30,6 @@ nav.categorias{
     background-color: aqua;
     transition: 0.3s;
 }
+.menu-ativo{
+    display: flex;
+}

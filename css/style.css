@@ -265,3 +265,11 @@ div.container{
         color: white;
         font-family: sans-serif;
     }
+    div.voltar{
+        position: absolute;
+        width: 400px;
+        height: 50px;
+        font-size: 40px;
+        left: 750px;
+        top: 450px;
+    }
