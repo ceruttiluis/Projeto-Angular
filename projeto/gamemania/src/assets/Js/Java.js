@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
 
     $("#voltar").click(()=>{
         scrollTo(0,0)
