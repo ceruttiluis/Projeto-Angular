@@ -1,0 +1,70 @@
+div.rodapé{
+    position: absolute;
+    width: 1440px;
+    height: 580px;
+    left: 0px;
+    top: 1508px;
+}
+div.logo-rodape{
+    position: absolute;
+    width: 293px;
+    height: 44px;
+    left: 720px;
+    top: 120px;
+}
+div.redes-sociais{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 1080px;
+    top: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+div.instagram{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1050px;
+    top: 80px;
+}
+div.facebook{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1200px;
+    top: 80px;
+}
+div.atendimento{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 230px;
+    top: 80px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: sans-serif;
+}
+div.contato{
+    position: absolute;
+    width: 220px;
+    height: 250px;
+    left: 1080px;
+    top: 200px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+}
+div.voltar{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+    left: 750px;
+    top: 450px;
+}
