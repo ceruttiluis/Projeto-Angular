@@ -15,8 +15,9 @@ export class LoginComponent implements OnInit {
   }
   userModel = new User();
 
-  receberDados() {this.loginService.login (this.userModel).subscribe((Response) => {
-    console.log(Response)
-  })
+  receberDados() {
+    console.log(this.userModel)
+      alert(this.userModel.email)
+      alert(this.userModel.password)
   }
 }
