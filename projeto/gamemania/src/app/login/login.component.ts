@@ -15,15 +15,25 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
     userModel = new User ();
+
+    mensagem = ""
+
     receberDados() {this.loginService.login (this.userModel).subscribe((response) => {
       console.log("Deu certo") 
         this.router.navigateByUrl("/")
 
-      }, (erro) => {
-        alert(erro.error)
-        console.log(erro)
-      
-      })
+      }, (respostaErro) => {
+        // alert(erro.error)
+        // console.log(erro)
+        if (respostaErro.error == "Email and password are required") {
+          this.mensagem = "Email e Senha Incorretos"
+        } else if (respostaErro.error == "Incorrect password") {
+          this.mensagem = "Senha Incorreta"
+        }else {
+          this.mensagem = respostaErro.error}
+
+
+        })   
 
     }
 }

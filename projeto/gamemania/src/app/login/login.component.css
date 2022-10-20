@@ -61,3 +61,13 @@ form [type=button]:hover{
     color: rgb(46, 157, 185) ;
     background-color: white;
 }
+div.mensagem{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    left: 40%;
+    top: 70%;
+    font-family: sans-serif;
+}
